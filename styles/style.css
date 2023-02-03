@@ -1,0 +1,140 @@
+body {
+  background-color: #292929;
+  color: white;
+}
+
+p {
+  color: #969696;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.highlights {
+  color: #ff4848;
+}
+
+.hrstyle {
+  border: 2px solid #ff4848;
+}
+
+.primarybtn {
+  padding: 5px 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #ff4848;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.secondarybtn {
+  padding: 5px 20px;
+  border: 1px solid white;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  color: #969696;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+h2, h3 {
+  font-family: "Exo", sans-serif;
+}
+
+h6 {
+  color: #ff4848;
+  letter-spacing: 4.75px;
+}
+
+.colorblock {
+  background-color: #1a1a1a;
+}
+
+.cards {
+  border-radius: 10px;
+  border: 2px solid #ff4848;
+  background-color: #2D2D2D;
+  filter: drop-shadow(0px 0px 15px rgba(255, 0, 0, 0.25));
+  width: 256px;
+}
+.cards p {
+  color: white;
+}
+
+.actives {
+  color: #ff4848;
+}
+.actives:hover {
+  color: #ff4848;
+}
+
+.works {
+  border-radius: 10px;
+  border: 2px solid #ff4848;
+  filter: drop-shadow(0px 0px 15px rgba(255, 0, 0, 0.25));
+  width: 375px;
+  height: 270px;
+}
+
+.vertical {
+  border-right: 4px solid #ff4848;
+}
+
+.colors {
+  background-color: #1a1a1a;
+  color: #969696;
+  border: none;
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.colors:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.active3 {
+  color: #ff4848;
+}
+.active3:hover {
+  color: #ff4848;
+}
+
+.hovericon path {
+  transition: 0.3s;
+}
+.hovericon path:hover {
+  fill: #ff4848;
+  transition: 0.3s;
+}
+
+.imgborder img {
+  border-radius: 10px;
+}
+
+footer h5, footer h2 {
+  color: #ff4848;
+}
+footer p {
+  color: white;
+}
+footer .nav-link {
+  color: white;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,143 @@
+
+@import './variables';
+body{
+  background-color: $primaryColor;
+  color:$tertiaryColor;
+}
+
+p{
+  color: $defaultcolor;
+  font-family: $secondaryFont;
+  font-weight: 400;
+}
+.highlights{
+  color:$secondaryColor;
+}
+.hrstyle{
+  border:2px solid $secondaryColor;;
+}
+.primarybtn{
+  padding: 5px 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: $secondaryColor;
+  color: $tertiaryColor;
+  font-family: $secondaryFont;
+}
+
+.secondarybtn{
+  padding: 5px 20px;
+  border: 1px solid $tertiaryColor;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: none;
+  color: $tertiaryColor;
+  font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+  color: $defaultcolor;
+  font-family: $primaryFont;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+    &:hover{
+        color: $tertiaryColor;
+        transition: 0.3s;
+          }
+}
+
+
+h2, h3{
+  font-family: 'Exo', sans-serif;
+}
+h6{
+  color:$secondaryColor;
+  letter-spacing: 4.75px;
+}
+
+
+.colorblock{
+  background-color: $blockColor;
+}
+
+.cards{
+  border-radius: 10px;
+  border: 2px solid $secondaryColor;
+  background-color: #2D2D2D;
+  filter: $shadow;
+  width: 256px;
+    p{
+      color:$tertiaryColor;
+    }
+}
+.actives{
+
+  color: $secondaryColor; 
+    &:hover{
+    color: $secondaryColor; 
+          }
+}
+
+.works{
+
+  border-radius: 10px;
+  border: 2px solid $secondaryColor;
+  filter: $shadow;
+  width: 375px;
+  height: 270px;
+}
+.vertical{
+  border-right: 4px solid $secondaryColor;
+}
+
+.colors{
+  background-color: $blockColor;
+  color:$defaultcolor;
+  border:none;
+  font-family: $primaryFont;
+  font-weight: 700;
+  font-size: 20px;
+  cursor:pointer;
+}
+
+.colors:hover{
+  color:$tertiaryColor;
+  transition: .3s;
+
+}.active3{
+
+  color:$secondaryColor;
+    &:hover{
+    color:$secondaryColor;
+    }
+}
+
+.hovericon path {
+   
+    transition: 0.3s;
+      &:hover{
+      fill: $secondaryColor;
+      transition: 0.3s;
+            }
+}
+.imgborder{
+  img{
+    border-radius: 10px;
+  }
+}
+footer{
+  h5,h2{
+    color:$secondaryColor;
+  }
+  p{
+    color:$tertiaryColor;
+  }
+  .nav-link{
+
+    color: $tertiaryColor;
+    font-family: $primaryFont;
+    font-size: 20px;
+  }
+}
